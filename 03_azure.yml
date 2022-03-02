@@ -2,7 +2,7 @@
 - hosts: localhost
   connection: local
   vars:
-    user: write your username here
+    user: mrnie
   tasks:
   - name: Delete resource group
     azure_rm_resourcegroup:
